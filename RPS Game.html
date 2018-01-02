@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title></title>
+
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="icon" href="images/favicon.png">
+</head>
+<body style="background-color:aqua;">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="js/scripts.js"></script>
+<script>
+    var userChoice = prompt ("Do you choose Rock, Paper, or Scissors?");
+    var computerChoice = Math.random();
+
+    if (computerChoice <=0.33) {
+        window.alert("Rock");
+    } 
+    else if (computerChoice <=0.66) {
+        window.alert("Paper");
+    } 
+    else {
+        window.alert("Scissors");
+    }
+</script>
+</body>  
+</html>
+
+
